@@ -17,11 +17,16 @@
 :root{
     --navbar:#a1ef67;
     --navbarfontscolor: #387912;
+    --backgroundcolor :#f1ffe6;
 }
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+body{
+    background-color: var(--backgroundcolor);
 }
 
 .yuyito_nav{
